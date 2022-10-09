@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-09T07:04:04.776Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2023000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To add Two Numbers",
+        "description": "",
+        "id": "calculator-test;to-add-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TeraDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have a calculator",
+            "match": {
+              "location": "stepdefs.CalcStepdef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add number1 as 4 and number2 as 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 17
+                },
+                {
+                  "val": "5",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefs.CalcStepdef.i_add_number1_as_and_number2_as(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefs.CalcStepdef.i_verify_the(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WIP"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:04:06.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To add Two Numbers",
+        "description": "",
+        "id": "calculator-test;to-add-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TeraDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have a calculator",
+            "match": {
+              "location": "stepdefs.CalcStepdef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I add Below",
+            "match": {
+              "location": "stepdefs.CalcStepdef.i_add_Below(java.util.List\u003cjava.lang.Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "4"
+                ]
+              },
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "6"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WIP"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Test",
+    "description": "  I want to use this template for my feature file",
+    "id": "calculator-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CalcTest.feature",
+    "tags": []
+  }
+]
