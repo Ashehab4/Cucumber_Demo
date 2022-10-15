@@ -6,7 +6,7 @@ Feature: Calculator Test
     Given I have a calculator
     When I add number1 as 4 and number2 as 5
     Then I verify the 9
-
+@calc
   Scenario Outline: To add Two Numbers
     Given I have a calculator
     When I add number1 as <number1> and number2 as <number2>
